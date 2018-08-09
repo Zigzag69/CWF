@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E1D7C231211C3AE3006C23A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7C230211C3AE3006C23A8 /* AppDelegate.swift */; };
-		E1D7C233211C3AE3006C23A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7C232211C3AE3006C23A8 /* ViewController.swift */; };
-		E1D7C236211C3AE3006C23A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D7C234211C3AE3006C23A8 /* Main.storyboard */; };
 		E1D7C238211C3AE3006C23A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D7C237211C3AE3006C23A8 /* Assets.xcassets */; };
-		E1D7C23B211C3AE3006C23A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D7C239211C3AE3006C23A8 /* LaunchScreen.storyboard */; };
+		E1D7C24D211C4251006C23A8 /* ChessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7C24B211C4251006C23A8 /* ChessVC.swift */; };
+		E1D7C24E211C4251006C23A8 /* ChessVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D7C24C211C4251006C23A8 /* ChessVC.xib */; };
+		E1D7C251211C4261006C23A8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7C24F211C4261006C23A8 /* MainVC.swift */; };
+		E1D7C252211C4261006C23A8 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D7C250211C4261006C23A8 /* MainVC.xib */; };
+		E1D7C255211C4277006C23A8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7C253211C4277006C23A8 /* LoginVC.swift */; };
+		E1D7C256211C4277006C23A8 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D7C254211C4277006C23A8 /* LoginVC.xib */; };
+		E1D7C259211C4288006C23A8 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7C257211C4288006C23A8 /* RegistrationVC.swift */; };
+		E1D7C25A211C4288006C23A8 /* RegistrationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D7C258211C4288006C23A8 /* RegistrationVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1D7C22D211C3AE3006C23A8 /* CWF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D7C230211C3AE3006C23A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1D7C232211C3AE3006C23A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E1D7C235211C3AE3006C23A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1D7C237211C3AE3006C23A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E1D7C23A211C3AE3006C23A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1D7C23C211C3AE3006C23A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D7C24B211C4251006C23A8 /* ChessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessVC.swift; sourceTree = "<group>"; };
+		E1D7C24C211C4251006C23A8 /* ChessVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChessVC.xib; sourceTree = "<group>"; };
+		E1D7C24F211C4261006C23A8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E1D7C250211C4261006C23A8 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		E1D7C253211C4277006C23A8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E1D7C254211C4277006C23A8 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		E1D7C257211C4288006C23A8 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		E1D7C258211C4288006C23A8 /* RegistrationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,58 @@
 			isa = PBXGroup;
 			children = (
 				E1D7C230211C3AE3006C23A8 /* AppDelegate.swift */,
-				E1D7C232211C3AE3006C23A8 /* ViewController.swift */,
-				E1D7C234211C3AE3006C23A8 /* Main.storyboard */,
+				E1D7C242211C3C21006C23A8 /* Controllers */,
 				E1D7C237211C3AE3006C23A8 /* Assets.xcassets */,
-				E1D7C239211C3AE3006C23A8 /* LaunchScreen.storyboard */,
 				E1D7C23C211C3AE3006C23A8 /* Info.plist */,
 			);
 			path = CWF;
+			sourceTree = "<group>";
+		};
+		E1D7C242211C3C21006C23A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1D7C247211C4216006C23A8 /* ChessVC */,
+				E1D7C248211C421E006C23A8 /* MainVC */,
+				E1D7C249211C4226006C23A8 /* LoginVC */,
+				E1D7C24A211C422C006C23A8 /* RegistrationVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E1D7C247211C4216006C23A8 /* ChessVC */ = {
+			isa = PBXGroup;
+			children = (
+				E1D7C24B211C4251006C23A8 /* ChessVC.swift */,
+				E1D7C24C211C4251006C23A8 /* ChessVC.xib */,
+			);
+			path = ChessVC;
+			sourceTree = "<group>";
+		};
+		E1D7C248211C421E006C23A8 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				E1D7C24F211C4261006C23A8 /* MainVC.swift */,
+				E1D7C250211C4261006C23A8 /* MainVC.xib */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		E1D7C249211C4226006C23A8 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				E1D7C253211C4277006C23A8 /* LoginVC.swift */,
+				E1D7C254211C4277006C23A8 /* LoginVC.xib */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		E1D7C24A211C422C006C23A8 /* RegistrationVC */ = {
+			isa = PBXGroup;
+			children = (
+				E1D7C257211C4288006C23A8 /* RegistrationVC.swift */,
+				E1D7C258211C4288006C23A8 /* RegistrationVC.xib */,
+			);
+			path = RegistrationVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +178,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1D7C23B211C3AE3006C23A8 /* LaunchScreen.storyboard in Resources */,
+				E1D7C252211C4261006C23A8 /* MainVC.xib in Resources */,
 				E1D7C238211C3AE3006C23A8 /* Assets.xcassets in Resources */,
-				E1D7C236211C3AE3006C23A8 /* Main.storyboard in Resources */,
+				E1D7C256211C4277006C23A8 /* LoginVC.xib in Resources */,
+				E1D7C25A211C4288006C23A8 /* RegistrationVC.xib in Resources */,
+				E1D7C24E211C4251006C23A8 /* ChessVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1D7C233211C3AE3006C23A8 /* ViewController.swift in Sources */,
 				E1D7C231211C3AE3006C23A8 /* AppDelegate.swift in Sources */,
+				E1D7C251211C4261006C23A8 /* MainVC.swift in Sources */,
+				E1D7C255211C4277006C23A8 /* LoginVC.swift in Sources */,
+				E1D7C259211C4288006C23A8 /* RegistrationVC.swift in Sources */,
+				E1D7C24D211C4251006C23A8 /* ChessVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E1D7C234211C3AE3006C23A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1D7C235211C3AE3006C23A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E1D7C239211C3AE3006C23A8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1D7C23A211C3AE3006C23A8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E1D7C23D211C3AE3006C23A8 /* Debug */ = {
